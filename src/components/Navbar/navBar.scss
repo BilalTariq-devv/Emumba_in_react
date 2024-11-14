@@ -1,0 +1,34 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 0%;
+  margin: auto;
+  max-width: 100rem;
+}
+.emumba-logo {
+  width: 10rem;
+}
+.links-button {
+  position: relative;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    color: green;
+  }
+}
+.links {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  font-size: larger;
+}

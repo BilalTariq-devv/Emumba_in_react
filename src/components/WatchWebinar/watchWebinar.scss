@@ -1,0 +1,29 @@
+.Webinar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 5.5rem;
+  background: #002835;
+}
+.watch-text-color {
+  color: #f90;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.Webinar {
+  a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .button-color .button-text {
+    color: #f90;
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+}
+.webinar-bartext {
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: capitalize;
+}

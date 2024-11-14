@@ -1,0 +1,42 @@
+
+.watch-webinar {
+  display: grid;
+  grid-auto-flow: column;
+  background-color: #f6fafa;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+}
+.genAI-description {
+  padding: 4rem;
+  max-width: 40.5rem;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    line-height: 1.5rem;
+  }
+  h4 {
+    line-height: 1.5rem;
+    font-weight: 600;
+  }
+}
+.emumba-aws-logo {
+  display: flex;
+  align-items: center;
+}
+.emumba-img {
+  width: 20%;
+}
+.aws-img {
+  width: 8%;
+}
+.webinar-img-container {
+  align-self: center;
+  padding-top: 5%;
+}
+.webinar-img {
+  width: 256px;
+}

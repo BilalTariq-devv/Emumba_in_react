@@ -1,0 +1,39 @@
+
+.about-services {
+  padding-top: 6%;
+}
+.services-text {
+  text-align: center;
+  align-items: center;
+}
+.about-services h2 {
+  font-size: 3rem;
+  margin-bottom: 3.5rem;
+  text-align: center;
+}
+.services-description {
+  text-align: center;
+  padding: 3rem;
+
+  p {
+    font-size: 118%;
+  }
+}
+.service-logo {
+  width: 20%;
+  padding-bottom: 6%;
+}
+.services-description:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.services-container {
+  display: grid;
+  grid-row-gap: 3rem;
+  grid-column-gap: 3rem;
+  position: relative;
+  z-index: 0;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 15%;
+  padding-right: 15%;
+}
