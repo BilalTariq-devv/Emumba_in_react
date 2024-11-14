@@ -1,10 +1,10 @@
 import React from 'react'
-import "./agilityBanner.scss";
+import "./Header.scss";
 
-function AgilityBanner() {
+function Header() {
     return (
         <img className="agility-img" src="/images/agility.png" />
     )
 }
 
-export default AgilityBanner
+export default Header

@@ -3,7 +3,7 @@ import {
   NavBar,
   WebinarBar,
   WatchWebinar,
-  AgilityBanner,
+  Header,
   Services,
 } from "../../components";
 
@@ -12,7 +12,7 @@ function LandingPage() {
     <main>
       <WatchWebinar />
       <NavBar />
-      <AgilityBanner />
+      <Header />
       <WebinarBar />
       <Services />
     </main>
